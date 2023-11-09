@@ -26,13 +26,13 @@ This project is a simple GUI application built in Python that takes a GitHub use
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/
+    git clone https://github.com/reda-mohsen/Web_Scraping_Application.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd 
+    cd Web_Scraping_Application
     ```
 
 3. Install the required Python packages:
@@ -48,10 +48,11 @@ This project is a simple GUI application built in Python that takes a GitHub use
     ```bash
     python main.py
     ```
-
 2. Enter a GitHub username in the GUI and click the "Generate CSV File" button.
+<br> ![Input Screenshot](assets/output.png) <br>
 3. The application will create a CSV file (`repo_names.csv`) with the names of the public repositories.
 4. Optionally, choose to open the generated CSV file.
+<br> ![Input Screenshot](assets/file_successfully_created.png) <br>
 
 ## Acknowledgements
 
