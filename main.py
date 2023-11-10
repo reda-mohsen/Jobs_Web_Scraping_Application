@@ -3,7 +3,6 @@
 # Project Title: Github Repositories Web Scraping Application
 # Description: This script is a simple GUI application that takes a GitHub username as input,
 # scrapes the user's public repositories, and generates a CSV file with the repository names.
-# It then opens the CSV file with the default associated program.
 # ------------------------------------------
 
 # Import necessary modules
@@ -52,7 +51,7 @@ def main():
 
             if bool:
                 # Ask the user if they want to open the file
-                response = messagebox.askquestion("File created successfully", "Do you want to open file?")
+                response = messagebox.askquestion("Done!", "Do you want to open file?")
 
                 if response == 'yes':
                     open_csv_file(path)
@@ -93,7 +92,7 @@ def get_response_content(username):
         url = f"https://github.com/{username}?tab=repositories"
         response = requests.get(url)
         if not response.status_code == 200:
-            raise ValueError("Denied Access")
+            raise ValueError("HTTP request failed")
         return response.content
 
 
