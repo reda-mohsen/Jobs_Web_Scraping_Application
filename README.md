@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a simple GUI application built in Python that takes a GitHub username as input, scrapes the user's public repositories, and generates a CSV file with the repository names. The application also provides an option to open the generated CSV file with the default associated program.
+This project is a simple GUI application built in Python that takes a GitHub username as input, scrapes the user's public repositories, and generates a CSV file with the repository names.
 
 ## Features
 
@@ -53,9 +53,3 @@ This project is a simple GUI application built in Python that takes a GitHub use
 3. The application will create a CSV file (`repo_names.csv`) with the names of the public repositories.
 4. Optionally, choose to open the generated CSV file.
 <br> ![Output Screenshot](assets/file_created.png) <br>
-
-## Acknowledgements
-
-- [tkinter](https://docs.python.org/3/library/tkinter.html) - GUI library for Python.
-- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) - Python library for web scraping.
-- [Requests](https://docs.python-requests.org/en/latest/) - HTTP library for Python.
